@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Tue Nov 09 2021 11:51:32 GMT+0300 (East Africa Time)
+------------------------------------------------------
+
+Modified files:
+* src/components/cart-dropdown/cart-dropdown.component.jsx
+* src/components/cart-dropdown/cart-dropdown.styles.scss
+* src/components/header/header.component.jsx
+
+
+Created files:
+* .autogit/logs/log-9-10-2021-11-21-14.txt
+* src/redux/cart/cart.actions.js
+* src/redux/cart/cart.reducer.js
+* src/redux/cart/cart.types.js
+
+
+Deleted files:
+
+
+Renamed files:
