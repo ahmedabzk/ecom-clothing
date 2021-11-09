@@ -8,7 +8,7 @@ import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 
 import './header.styles.scss';
 
-const Header = ({currentUser, }) => (
+const Header = ({currentUser, hidden}) => (
     <div className="header">
     <Link className="logo-container" to='/'>
     <Logo className="logo"/>
@@ -35,7 +35,11 @@ const Header = ({currentUser, }) => (
     )}
 
     <CartIcon/>
-    <CartDropdown/>
+
+    {
+        hidden ? null : <CartDropdown/>
+    }
+    
 
     </div>
 
