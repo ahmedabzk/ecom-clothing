@@ -53,7 +53,6 @@ componentWillUnmount(){
       <Switch>
         <Route exact path="/" component={HomePage}/>
         <Route  path="/shop" component={ShopPage}/>
-        <Route exact path="/checkout" Component={CheckoutPage}/>
         <Route 
         exact 
         path="/signin" 
@@ -65,6 +64,7 @@ componentWillUnmount(){
         )
         }
         />
+        <Route path="/checkout" component={CheckoutPage}/>
       </Switch>
     </div>
   );
