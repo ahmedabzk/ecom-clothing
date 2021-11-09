@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Tue Nov 09 2021 11:21:14 GMT+0300 (East Africa Time)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-9-10-2021-10-50-42.txt
+* src/components/cart-dropdown/cart-dropdown.component.jsx
+* src/components/cart-dropdown/cart-dropdown.styles.scss
+
+
+Deleted files:
+
+
+Renamed files:
