@@ -12,7 +12,7 @@ const StripeCheckoutButton = ({ price }) => {
     return (
         <StripeCheckout
             label= 'Pay Now'
-            name= 'ecom-clothing ltd.'
+            name= 'Clothing Store ltd.'
             billingAddress
             shippingAddress
             image= '"https://stripe.com/img/documentation/checkout/marketplace.png"'
