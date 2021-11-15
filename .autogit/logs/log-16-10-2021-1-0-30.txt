@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Tue Nov 16 2021 01:00:30 GMT+0300 (East Africa Time)
+------------------------------------------------------
+
+Modified files:
+* package.json
+* src/redux/shop/shop.selectors.js
+
+
+Created files:
+* .autogit/logs/log-16-10-2021-0-30-10.txt
+
+
+Deleted files:
+
+
+Renamed files:
