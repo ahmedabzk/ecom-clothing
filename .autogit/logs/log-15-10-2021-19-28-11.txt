@@ -1,0 +1,25 @@
+-------------------- Auto-Git Log --------------------
+		Mon Nov 15 2021 19:28:11 GMT+0300 (East Africa Time)
+------------------------------------------------------
+
+Modified files:
+* src/pages/shop/shop.component.jsx
+
+
+Created files:
+* .autogit/logs/log-15-10-2021-10-27-7.txt
+* src/components/collection-overview/collection-overview.component.jsx
+* src/components/collection-overview/collection-overview.styles.scss
+* src/pages/collection/collection.component.jsx
+* src/redux/directory/directory.reducer.js
+* src/redux/directory/directory.selectors.js
+* src/redux/shop/shop.data.js
+* src/redux/shop/shop.reducer.js
+* src/redux/shop/shop.selectors.js
+
+
+Deleted files:
+* src/pages/shop/shop.data.js
+
+
+Renamed files:
