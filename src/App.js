@@ -19,6 +19,7 @@ import './App.css';
 import { auth, createUserProfileDocument } from './firebase/firebase-utils';
 
 
+
 class App extends React.Component {
  
 unsubscribeFromAuth = null;
@@ -37,6 +38,7 @@ componentDidMount(){
         });
       }
       setCurrentUser(userAuth);
+    
     });
 
   };
@@ -72,12 +74,14 @@ componentWillUnmount(){
 }
 
 const mapStateToProps = createStructuredSelector({
-currentUser: selectCurrentUser
+currentUser: selectCurrentUser,
+
 });
 
 
 const mapDispatchToProps = dispatch => ({
   setCurrentUser: user => dispatch(setCurrentUser(user))
+  
 
 });
 
