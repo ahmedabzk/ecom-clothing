@@ -11,32 +11,38 @@ import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 import {selectCurrentUser} from '../../redux/user/user.selectors';
 import { selectCartHidden } from '../../redux/cart/cart.selector';
 
-import './header.styles.scss';
+import {
+    HeaderContainer,
+    LogoContainer,
+    OptionsContainer,
+    OptionLink,
+    OptionDiv
+} from './header.styles';
 
 const Header = ({currentUser, hidden}) => (
-    <div className="header">
-    <Link className="logo-container" to='/'>
+    <HeaderContainer>
+    <LogoContainer to='/'>
     <Logo className="logo"/>
 
-    </Link>
-    <div className="options">
-    <Link className="option" to='/shop'> 
+    </LogoContainer>
+    <OptionsContainer>
+    <OptionLink to='/shop'> 
         SHOP
 
-    </Link>
-    <Link className="option" to='/contact'>
+    </OptionLink>
+    <OptionLink to='/contact'>
         CONTACT
 
-    </Link>
+    </OptionLink>
    {currentUser?(
-    <div className="option" onClick = {() => auth.signOut()}>
+    <OptionDiv onClick = {() => auth.signOut()}>
         Sign Out
-    </div>
+    </OptionDiv>
    ):(
-    <Link className="option" to='/signin'>
+    <OptionLink to='/signin'>
         SIGN IN
 
-    </Link>
+    </OptionLink>
     )}
 
     <CartIcon/>
@@ -46,9 +52,9 @@ const Header = ({currentUser, hidden}) => (
     }
     
 
-    </div>
+    </OptionsContainer>
 
-    </div>
+    </HeaderContainer>
 
 );
 
