@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Wed Nov 17 2021 15:20:47 GMT+0300 (East Africa Time)
+------------------------------------------------------
+
+Modified files:
+* package.json
+* src/redux/store.js
+* yarn.lock
+
+
+Created files:
+* .autogit/logs/log-17-10-2021-14-50-27.txt
+
+
+Deleted files:
+
+
+Renamed files:
