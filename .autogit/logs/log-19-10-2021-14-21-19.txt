@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Fri Nov 19 2021 14:21:19 GMT+0300 (East Africa Time)
+------------------------------------------------------
+
+Modified files:
+* src/redux/shop/shop.sagas.js
+* src/redux/store.js
+
+
+Created files:
+* .autogit/logs/log-18-10-2021-21-20-4.txt
+* src/redux/root.sagas.js
+
+
+Deleted files:
+
+
+Renamed files:
