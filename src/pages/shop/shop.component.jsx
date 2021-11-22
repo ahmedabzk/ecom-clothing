@@ -8,21 +8,12 @@ import CollectionPage from '../collection/collection.component';
 
 import { firestore, convertCollectionsSnapshotToMap } from '../../firebase/firebase-utils';
 
-import { updateCollections } from '../../redux/shop/shop.actions';
-
 class ShopPage extends React.Component  {
 
   unsubscribeFromSnapshot = null;
 
   componentDidMount() {
-    const { updateCollections } = this.props;
-    const collectionRef = firestore.collection('collections');
 
-    collectionRef.get().then((snapshot) => {
-      const collectionsMap = convertCollectionsSnapshotToMap(snapshot);
-      updateCollections(collectionsMap);
-
-    });
 
   }
 
