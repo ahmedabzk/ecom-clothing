@@ -10,16 +10,17 @@ import { fetchCollectionsSuccess, fetchCollectionsFailure } from './shop.actions
 export function* fetchCollectionsAsync() {
 
 try {
-    const collectionRef = firestore.collection('collections');
-    const snapshot = yield collectionRef.get();
-    const collectionsMap = yield call(
-        convertCollectionsSnapshotToMap,
-        snapshot);
-        yield put(fetchCollectionsSuccess(collectionsMap));
+const collectionRef = firestore.collection('collections');
+const snapshot = yield collectionRef.get();
+const collectionsMap = yield call(
+    convertCollectionsSnapshotToMap,
+    snapshot
+    );
+    yield put(fetchCollectionsSuccess(collectionsMap));
 
-    } catch(erro) {
-     yield put(fetchCollectionsFailure(erro.message));
-    }
+} catch(erro) {
+    yield put(fetchCollectionsFailure(erro.message));
+}
 
 
 }

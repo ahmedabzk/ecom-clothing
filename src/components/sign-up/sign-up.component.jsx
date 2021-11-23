@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect }
 import FormInput from '../form-input/form-input.component';
 import CustomButton from '../custom-button/custom-button.components'
 
