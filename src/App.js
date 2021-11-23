@@ -12,11 +12,11 @@ import CheckoutPage from './pages/checkout/checkout.component';
 import Header from './components/header/header.component';
 
 
-import {setCurrentUser} from './redux/user/user.actions';
+import { checkUserSession} from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selectors';
 
 import './App.css';
-import { auth, createUserProfileDocument } from './firebase/firebase-utils';
+
 
 
 
@@ -25,21 +25,8 @@ class App extends React.Component {
 unsubscribeFromAuth = null;
 
 componentDidMount(){
-  const {setCurrentUser} = this.props;
-    this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {
-      if (userAuth) {
-        const userRef = await createUserProfileDocument(userAuth);
-
-        userRef.onSnapshot(snapShot => {
-            setCurrentUser({
-              id: snapShot.id,
-              ...snapShot.data()
-          });
-        });
-      }
-      setCurrentUser(userAuth);
-    
-    });
+  const { checkUserSession } = this.props;
+   checkUserSession();
 
   };
 
@@ -80,7 +67,7 @@ currentUser: selectCurrentUser,
 
 
 const mapDispatchToProps = dispatch => ({
-  setCurrentUser: user => dispatch(setCurrentUser(user))
+  checkUserSession: user => dispatch(checkUserSession())
   
 
 });

@@ -8,9 +8,6 @@ import CollectionsOverview from '../../components/collection-overview/collection
 import CollectionPage from '../collection/collection.component';
 
 class ShopPage extends React.Component  {
-
-  unsubscribeFromSnapshot = null;
-
   componentDidMount() {
     const { fetchCollectionsStart } = this.props;
     fetchCollectionsStart();

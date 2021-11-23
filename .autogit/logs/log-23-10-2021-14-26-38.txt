@@ -1,0 +1,27 @@
+-------------------- Auto-Git Log --------------------
+		Tue Nov 23 2021 14:26:38 GMT+0300 (East Africa Time)
+------------------------------------------------------
+
+Modified files:
+* src/firebase/firebase-utils.js
+* src/pages/shop/shop.component.jsx
+* src/redux/cart/cart.actions.js
+* src/redux/cart/cart.reducer.js
+* src/redux/cart/cart.types.js
+* src/redux/root.sagas.js
+* src/redux/shop/shop.selectors.js
+* src/redux/user/user-reducer.js
+* src/redux/user/user.actions.js
+* src/redux/user/user.sagas.js
+* src/redux/user/user.types.js
+
+
+Created files:
+* .autogit/logs/log-23-10-2021-13-56-17.txt
+* src/redux/cart/cart.sagas.js
+
+
+Deleted files:
+
+
+Renamed files:
