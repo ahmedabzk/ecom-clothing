@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Tue Nov 23 2021 13:56:17 GMT+0300 (East Africa Time)
+------------------------------------------------------
+
+Modified files:
+* src/redux/shop/shop.actions.js
+* src/redux/shop/shop.sagas.js
+* src/redux/shop/shop.selectors.js
+
+
+Created files:
+* .autogit/logs/log-23-10-2021-13-25-58.txt
+
+
+Deleted files:
+
+
+Renamed files:
