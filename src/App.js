@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Switch, Route, Redirect} from 'react-router-dom';
 import { connect } from 'react-redux';
 import { createStructuredSelector} from 'reselect';
@@ -20,12 +20,12 @@ import './App.css';
 
 
 
-class App extends React.Component {
+const App = () =>  {
  
 unsubscribeFromAuth = null;
 
 componentDidMount(){
-  const { checkUserSession } = this.props;
+  const {  } = this.props;
    checkUserSession();
 
   };
