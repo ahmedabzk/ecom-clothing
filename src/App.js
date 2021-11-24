@@ -20,22 +20,11 @@ import './App.css';
 
 
 
-const App = () =>  {
- 
-unsubscribeFromAuth = null;
-
-componentDidMount(){
-  const {  } = this.props;
+const App = ({ checkUserSession,currentUser }) =>  {
+ useEffect(() => {
    checkUserSession();
+ }, [checkUserSession])
 
-  };
-
-
-componentWillUnmount(){
-  this.unsubscribeFromAuth();
-}
-
-  render() {
   return (
     <div>
     <Header />
@@ -46,7 +35,7 @@ componentWillUnmount(){
         exact 
         path="/signin" 
         render = {() => 
-        this.props.currentUser ? (
+        currentUser ? (
           <Redirect to='/' />
         ):(
           <SignInAndSignUpPage />
@@ -58,7 +47,7 @@ componentWillUnmount(){
     </div>
   );
   }
-}
+
 
 const mapStateToProps = createStructuredSelector({
 currentUser: selectCurrentUser,
