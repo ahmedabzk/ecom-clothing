@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Tue Nov 09 2021 14:23:13 GMT+0300 (East Africa Time)
+------------------------------------------------------
+
+Modified files:
+* src/components/collection-item/collection-item.component.jsx
+* src/pages/shop/shop.data.js
+* src/redux/cart/cart.reducer.js
+
+
+Created files:
+* .autogit/logs/log-9-10-2021-13-52-55.txt
+* src/redux/cart/cart.utils.js
+
+
+Deleted files:
+
+
+Renamed files:

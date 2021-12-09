@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Tue Nov 09 2021 12:52:12 GMT+0300 (East Africa Time)
+------------------------------------------------------
+
+Modified files:
+* src/components/collection-item/collection-item.component.jsx
+* src/components/collection-item/collection-item.style.scss
+* src/components/custom-button/custom-button.components.jsx
+* src/components/custom-button/custom-button.styles.scss
+* src/components/header/header.component.jsx
+
+
+Created files:
+* .autogit/logs/log-9-10-2021-12-21-52.txt
+
+
+Deleted files:
+
+
+Renamed files:

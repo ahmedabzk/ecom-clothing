@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Tue Nov 09 2021 20:42:30 GMT+0300 (East Africa Time)
+------------------------------------------------------
+
+Modified files:
+* src/App.js
+* src/pages/checkout/checkout.component.jsx
+* src/pages/checkout/checkout.styles.scss
+* src/redux/cart/cart.selector.js
+
+
+Created files:
+* .autogit/logs/log-9-10-2021-20-12-10.txt
+
+
+Deleted files:
+
+
+Renamed files:

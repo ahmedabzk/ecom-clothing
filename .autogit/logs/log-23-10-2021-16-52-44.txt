@@ -1,0 +1,91 @@
+-------------------- Auto-Git Log --------------------
+		Tue Nov 23 2021 16:52:44 GMT+0300 (East Africa Time)
+------------------------------------------------------
+
+Modified files:
+* src/components/cart-dropdown/cart-dropdown.component.jsx
+* src/components/cart-icon/cart-icon.component.jsx
+* src/components/cart-item/cart-item.component.jsx
+* src/components/checkout-item/checkout-item.component.jsx
+* src/components/collection-item/collection-item.component.jsx
+* src/components/collection-preview/collection-preview.component.jsx
+* src/components/form-input/form-input.component.jsx
+* src/components/header/header.component.jsx
+* src/components/header/header.styles.jsx
+* src/components/sign-in/sign-in.component.jsx
+* src/components/sign-up/sign-up.component.jsx
+* src/components/stripe-button/stripe-button.component.jsx
+* src/pages/checkout/checkout.component.jsx
+* src/pages/homepage/homepage.components.jsx
+* src/pages/shop/shop.component.jsx
+* src/redux/cart/cart.actions.js
+* src/redux/cart/cart.reducer.js
+* src/redux/cart/cart.sagas.js
+* src/redux/cart/cart.types.js
+* src/redux/cart/cart.utils.js
+* src/redux/directory/directory.reducer.js
+* src/redux/directory/directory.selectors.js
+* src/redux/root-reducer.js
+* src/redux/shop/shop.actions.js
+* src/redux/shop/shop.reducer.js
+* src/redux/shop/shop.sagas.js
+* src/redux/shop/shop.selectors.js
+* src/redux/shop/shop.types.js
+* src/redux/store.js
+* src/redux/user/user.actions.js
+* src/redux/user/user.sagas.js
+* src/redux/user/user.selectors.js
+* src/redux/user/user.types.js
+
+
+Created files:
+* .autogit/logs/log-23-10-2021-15-27-19.txt
+* src/components/cart-dropdown/cart-dropdown.styles.jsx
+* src/components/cart-icon/cart-icon.styles.jsx
+* src/components/cart-item/cart-item.styles.jsx
+* src/components/checkout-item/checkout-item.styles.jsx
+* src/components/collection-item/collection-styles.styles.jsx
+* src/components/collection-preview/collection-preview.styles.jsx
+* src/components/collections-overview/collections-overview.container.jsx
+* src/components/collections-overview/collections-overview.styles.jsx
+* src/components/custom-button/custom-button.component.jsx
+* src/components/custom-button/custom-button.styles.jsx
+* src/components/directory/directory.styles.jsx
+* src/components/form-input/form-input.styles.jsx
+* src/components/menu-item/menu-item.component.jsx
+* src/components/menu-item/menu-item.styles.jsx
+* src/components/sign-in/sign-in.styles.jsx
+* src/components/sign-up/sign-up.styles.jsx
+* src/components/with-spinner/with-spinner.component.jsx
+* src/components/with-spinner/with-spinner.styles.jsx
+* src/pages/collection/collection.container.jsx
+* src/redux/cart/cart.selectors.js
+
+
+Deleted files:
+* src/components/cart-dropdown/cart-dropdown.styles.scss
+* src/components/cart-icon/cart-icon.styles.scss
+* src/components/cart-item/cart-item.styles.scss
+* src/components/checkout-item/checkout-item.styles.scss
+* src/components/collection-item/collection-item.style.scss
+* src/components/collection-overview/collection-overview.styles.scss
+* src/components/collection-preview/collection-preview.style.scss
+* src/components/custom-button/custom-button.components.jsx
+* src/components/custom-button/custom-button.styles.scss
+* src/components/directory/directory.styles.scss
+* src/components/form-input/form-input.styles.scss
+* src/components/menu-item/menu-item.components.jsx
+* src/components/menu-item/menu-item.styles.scss
+* src/components/sign-in/sign-in.styles.scss
+* src/components/sign-up/sign-up.styles.scss
+* src/redux/cart/cart.selector.js
+
+
+Renamed files:
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
