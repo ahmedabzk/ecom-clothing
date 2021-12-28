@@ -31,11 +31,11 @@ app.post('/payment', (req, res) => {
     amount: req.body.amount,
     currency: 'usd'
   };
-
-  stripe.chargers.create(body, (stripeErr, stripeRes) => {
+  // console.log(stripe);
+  stripe.charges.create(body, (stripeErr, stripeRes) => {
     if (stripeErr) {
+      console.log("Error Here "+stripeErr)
       res.status(500).send({ error: stripeErr });
-      console.log(stripeErr)
     } else {
       res.status(200).send({ success: stripeRes });
       console.log(stripeRes)

@@ -1,0 +1,37 @@
+-------------------- Auto-Git Log --------------------
+		Tue Dec 28 2021 19:12:45 GMT+0300 (East Africa Time)
+------------------------------------------------------
+
+Modified files:
+* client/src/components/stripe-button/stripe-button.component.jsx
+* server.js
+
+
+Created files:
+* .autogit/logs/log-13-11-2021-12-39-25.txt
+* client/build/asset-manifest.json
+* client/build/favicon.ico
+* client/build/index.html
+* client/build/logo192.png
+* client/build/logo512.png
+* client/build/manifest.json
+* client/build/robots.txt
+* client/build/service-worker.js
+* client/build/service-worker.js.map
+* client/build/static/css/main.c663209b.chunk.css
+* client/build/static/css/main.c663209b.chunk.css.map
+* client/build/static/js/2.c38466d6.chunk.js
+* client/build/static/js/2.c38466d6.chunk.js.LICENSE.txt
+* client/build/static/js/2.c38466d6.chunk.js.map
+* client/build/static/js/main.c556c962.chunk.js
+* client/build/static/js/main.c556c962.chunk.js.map
+* client/build/static/js/runtime-main.658b73fc.js
+* client/build/static/js/runtime-main.658b73fc.js.map
+* client/build/static/media/crown.3a4e2b15.svg
+* client/build/static/media/shopping-bag.a688874f.svg
+
+
+Deleted files:
+
+
+Renamed files:
