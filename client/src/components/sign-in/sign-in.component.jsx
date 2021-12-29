@@ -15,7 +15,7 @@ import {
   ButtonsBarContainer
 } from './sign-in.styles';
 
-const SignIn = ({emailSignInStart, googleSnStartignI}) => {
+const SignIn = ({emailSignInStart, googleSignInStart}) => {
    const [userCredentials, setCredentials] = useState({email: '', password: ''});
   
    const { email, password } = userCredentials;

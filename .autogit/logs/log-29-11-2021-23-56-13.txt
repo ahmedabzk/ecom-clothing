@@ -1,0 +1,21 @@
+-------------------- Auto-Git Log --------------------
+		Wed Dec 29 2021 23:56:13 GMT+0300 (East Africa Time)
+------------------------------------------------------
+
+Modified files:
+* client/src/App.js
+* client/src/components/checkout-item/checkout-item.styles.jsx
+* client/src/components/collection-item/collection-styles.styles.jsx
+* client/src/components/stripe-button/stripe-button.component.jsx
+* server.js
+
+
+Created files:
+* .autogit/logs/log-28-11-2021-19-42-57.txt
+* client/src/global-style.js
+
+
+Deleted files:
+
+
+Renamed files:
